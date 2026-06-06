@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Yash Singh's opinionated coding standards plugin for Python and React/Next.js, the agentic engineering stack, and agent governance audits.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {

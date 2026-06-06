@@ -1,7 +1,7 @@
 {
   "name": "the-y-coding-standard",
-  "description": "Yash Singh's opinionated coding standards plugin: Python and React/Next.js standards, the agentic engineering stack (AGENTS.md, plans/findings/progress/skills), and agent governance audits inspired by Microsoft's agent-governance-toolkit.",
-  "version": "0.1.0",
+  "description": "Yash Singh's opinionated coding standards plugin: Python, React/Next.js, JavaScript/TypeScript, Java/Spring, C++, Postgres, OOP (SOLID + relationship types). Ships the agentic engineering stack (AGENTS.md, plans/findings/progress/skills), a full Sprint Loop (/y-office-hours through /y-retro), and a parallel-agent governance audit (/y-govern) inspired by Microsoft's agent-governance-toolkit.",
+  "version": "0.2.0",
   "author": {
     "name": "Yash Singh",
     "email": "yashs33244@gmail.com"
@@ -9,34 +9,23 @@
   "homepage": "https://github.com/yashs33244/the_y_coding_standard",
   "repository": "https://github.com/yashs33244/the_y_coding_standard",
   "license": "MIT",
-  "compatibility": [
-    "claude-code"
-  ],
   "keywords": [
     "claude-code",
     "coding-standards",
     "python",
     "nextjs",
     "react",
+    "typescript",
+    "java-spring",
+    "cpp",
+    "postgres",
+    "oop",
+    "solid",
     "agents",
     "agentic",
     "governance",
     "agents-md",
+    "sprint-loop",
     "yash"
-  ],
-  "skills": [
-    "./skills/the-y-coding-standard"
-  ],
-  "commands": [
-    "./commands/y-init.md",
-    "./commands/y-office-hours.md",
-    "./commands/y-plan-core-review.md",
-    "./commands/y-plan-design-review.md",
-    "./commands/y-plan-eng-review.md",
-    "./commands/y-review.md",
-    "./commands/y-qa.md",
-    "./commands/y-ship.md",
-    "./commands/y-retro.md",
-    "./commands/y-govern.md"
   ]
 }

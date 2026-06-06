@@ -7,6 +7,8 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-06-07
+
 ### Added
 - Four new reference files adapted from `superpowers/coding-standards` into Yash voice:
   - `references/javascript-typescript.md`: non-React Node/TS standards (services, CLIs, libraries).
@@ -15,6 +17,11 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   - `references/database-postgres.md`: Postgres 16+, UUIDv7, parameterized queries, migration rules, pgvector.
 - Aggressive triggers extended for `.java`, `.cpp`, `.hpp`, `.cc`, `.h`, `.sql` files and Java/Spring/C++/CMake/Postgres/Drizzle/Prisma/SQLAlchemy/migrations/schema keywords.
 - Trigger eval matrix expanded to 37 cases.
+
+### Fixed
+- Plugin manifest aligned with official Claude Code plugin schema. Removed `skills[]` and `commands[]` arrays from `plugin.json` and `marketplace.json` so auto-discovery works as designed (per https://code.claude.com/docs/en/plugins-reference). Removed unsupported `compatibility` field. Plugin now matches the minimal-manifest pattern used by the official Vercel plugin.
+- YAML frontmatter in four planning commands (`y-office-hours`, `y-plan-core-review`, `y-plan-design-review`, `y-plan-eng-review`) switched to folded-scalar form so colons inside the description text no longer break parsing.
+- Marketplace plugin entry simplified to just `name`, `description`, `source` - components are now auto-discovered, not listed.
 
 ## [0.1.0] - 2026-06-07
 
