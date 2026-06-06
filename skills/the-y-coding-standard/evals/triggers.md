@@ -33,6 +33,16 @@ Manual evals for verifying that the `the-y-coding-standard` skill fires on the e
 | 25 | "Apply dependency injection here" | the-y-coding-standard fires (loads oop.md) |
 | 26 | "Design a polymorphic discount engine" | the-y-coding-standard fires (loads oop.md) |
 | 27 | "Check Law of Demeter on this method chain" | the-y-coding-standard fires (loads oop.md) |
+| 28 | "Build a Node CLI" | the-y-coding-standard fires (loads javascript-typescript.md) |
+| 29 | "Write a TypeScript library" | the-y-coding-standard fires (loads javascript-typescript.md) |
+| 30 | "Set up a Spring Boot service" | the-y-coding-standard fires (loads java-spring.md and oop.md) |
+| 31 | "Add a REST controller in Java" | the-y-coding-standard fires (loads java-spring.md and oop.md) |
+| 32 | "Write a C++ class for vector ops" | the-y-coding-standard fires (loads cpp.md and oop.md) |
+| 33 | "Set up CMake for this project" | the-y-coding-standard fires (loads cpp.md) |
+| 34 | "Design a users table in Postgres" | the-y-coding-standard fires (loads database-postgres.md) |
+| 35 | "Write a Drizzle migration" | the-y-coding-standard fires (loads database-postgres.md) |
+| 36 | "Add an index to speed up this query" | the-y-coding-standard fires (loads database-postgres.md) |
+| 37 | "Set up pgvector for embeddings" | the-y-coding-standard fires (loads database-postgres.md) |
 
 ## How to run manually
 

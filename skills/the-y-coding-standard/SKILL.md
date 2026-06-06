@@ -3,9 +3,11 @@ name: the-y-coding-standard
 description: >
   MUST USE whenever the user starts a new project, scaffolds a repo, creates a
   new feature, module, service, or package, or creates any `.py`, `.ts`, `.tsx`,
-  `.js`, `.jsx`, or `.sql` file. MUST USE when the user mentions Next.js,
-  FastAPI, Django, Flask, React, Python, TypeScript, Postgres, Prisma, Drizzle,
-  SQLAlchemy, App Router, Server Components, or AI SDK. MUST USE when the user
+  `.js`, `.jsx`, `.java`, `.cpp`, `.hpp`, `.cc`, `.h`, or `.sql` file. MUST USE
+  when the user mentions Next.js, FastAPI, Django, Flask, React, Python,
+  TypeScript, Node, Express, NestJS, Hono, Java, Spring, Spring Boot, C++,
+  CMake, Postgres, Prisma, Drizzle, SQLAlchemy, App Router, Server Components,
+  AI SDK, migrations, schema design, or indexing. MUST USE when the user
   says "best practices", "production ready", "structure this properly", "make
   this modular", "follow standards", "set up project", "scaffold", "init repo",
   "bootstrap", "lay this out", "organize this code", "split this file", "review
@@ -41,12 +43,16 @@ Yash Singh's opinionated standards for Python and React/Next.js development, the
 |---|---|
 | Python (any framework: FastAPI, Django, Flask, scripts) | `references/python.md` |
 | React / Next.js / frontend | `references/react-nextjs.md` |
+| Non-React JavaScript / TypeScript (Node services, CLIs, libraries) | `references/javascript-typescript.md` |
+| Java / Spring Boot | `references/java-spring.md` |
+| C++ (any .cpp / .hpp / .cc / .h) | `references/cpp.md` |
+| Postgres, SQL, schema design, migrations, indexing | `references/database-postgres.md` |
 | Object-oriented design: SOLID, OOP pillars, clean-code principles, relationship types (any class-heavy code) | `references/oop.md` |
 | AGENTS.md, folder structure for agent-driven repos, plans/findings/progress/skills | `references/agentic-stack.md` |
 | Agent governance, security, audit, permissions | `references/governance.md` |
 | Project scaffolding: .claude, .conductor, .cursor, .devcontainer, .husky, .github, Docs/ | `references/project-scaffold.md` |
 
-Load a reference only when its context actually applies. Do not load all six at once. If the user is writing a React component, load `react-nextjs.md` and stop. If the diff is class-heavy or the user asks about SOLID, load `oop.md` alongside the stack reference.
+Load a reference only when its context actually applies. Do not load all ten at once. If the user is writing a React component, load `react-nextjs.md` and stop. If the diff is class-heavy or the user asks about SOLID, load `oop.md` alongside the stack reference. For Spring Boot work, load `java-spring.md` and `oop.md` together (Java is class-heavy).
 
 ## Universal Rules (override language defaults on conflict)
 

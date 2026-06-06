@@ -7,6 +7,15 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+- Four new reference files adapted from `superpowers/coding-standards` into Yash voice:
+  - `references/javascript-typescript.md`: non-React Node/TS standards (services, CLIs, libraries).
+  - `references/java-spring.md`: Spring Boot 3.x posture, constructor injection, records, Java 21 LTS.
+  - `references/cpp.md`: C++20 minimum, CMake 3.25+, vcpkg/Conan, smart pointers, std::expected.
+  - `references/database-postgres.md`: Postgres 16+, UUIDv7, parameterized queries, migration rules, pgvector.
+- Aggressive triggers extended for `.java`, `.cpp`, `.hpp`, `.cc`, `.h`, `.sql` files and Java/Spring/C++/CMake/Postgres/Drizzle/Prisma/SQLAlchemy/migrations/schema keywords.
+- Trigger eval matrix expanded to 37 cases.
+
 ## [0.1.0] - 2026-06-07
 
 ### Added
