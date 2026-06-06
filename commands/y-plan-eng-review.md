@@ -1,5 +1,13 @@
 ---
-description: Sprint Loop step 04 - "Build it well." Engineering review of an active plan covering architecture, data flow, code quality, tests, and performance. Triggers on "engineering review", "eng review", "architecture review", "lock in the plan", "tech review", "review tests", "data flow review", "review architecture", "Yash eng review", "lock the plan", "plan eng review", "tech plan review". Output: updated plan in plans/ ready for implementation with locked architecture, ASCII diagrams, test coverage map, performance notes, and a completion summary table.
+description: >
+  Sprint Loop step 04 - 'Build it well.' Engineering review of an active plan
+  covering architecture, data flow, code quality, tests, and performance.
+  Triggers on 'engineering review', 'eng review', 'architecture review',
+  'lock in the plan', 'tech review', 'review tests', 'data flow review',
+  'review architecture', 'Yash eng review', 'lock the plan', 'plan eng
+  review', 'tech plan review'. Output is an updated plan in plans/ ready for
+  implementation with locked architecture, ASCII diagrams, test coverage map,
+  performance notes, and a completion summary table.
 ---
 
 # /y-plan-eng-review

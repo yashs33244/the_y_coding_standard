@@ -1,5 +1,12 @@
 ---
-description: Sprint Loop step 02 - "How big could it be?" CEO-mode strategic and scope review of an active plan. Triggers on "review the plan", "scope review", "strategic review", "is this scope right", "what's the blast radius", "core review", "CEO review", "challenge the plan", "poke holes", "think bigger", "scope down", "lock the scope", "what's not in scope". Output: updated plan file in plans/ with locked scope, NOT-in-scope section, blast radius map, and decision log.
+description: >
+  Sprint Loop step 02 - 'How big could it be?' CEO-mode strategic and scope
+  review of an active plan. Triggers on 'review the plan', 'scope review',
+  'strategic review', 'is this scope right', 'what is the blast radius',
+  'core review', 'CEO review', 'challenge the plan', 'poke holes', 'think
+  bigger', 'scope down', 'lock the scope', 'what is not in scope'. Output is
+  an updated plan file in plans/ with locked scope, NOT-in-scope section,
+  blast radius map, and decision log.
 ---
 
 # /y-plan-core-review

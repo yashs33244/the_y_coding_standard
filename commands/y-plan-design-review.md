@@ -1,5 +1,12 @@
 ---
-description: Sprint Loop step 03 - "Make the user happy." Designer's-eye review of an active plan for UI/UX surfaces. Triggers on "design review", "UX review", "designer review", "review the design", "is this UX good", "make the user happy", "UI critique", "UX critique", "rate the design", "design dimensions", "design rating", "design plan review". Output: updated plan in plans/ with scored design dimensions, gap analysis, and concrete fixes per dimension.
+description: >
+  Sprint Loop step 03 - 'Make the user happy.' Designer's-eye review of an
+  active plan for UI and UX surfaces. Triggers on 'design review', 'UX
+  review', 'designer review', 'review the design', 'is this UX good', 'make
+  the user happy', 'UI critique', 'UX critique', 'rate the design', 'design
+  dimensions', 'design rating', 'design plan review'. Output is an updated
+  plan in plans/ with scored design dimensions, gap analysis, and concrete
+  fixes per dimension.
 ---
 
 # /y-plan-design-review

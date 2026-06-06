@@ -1,5 +1,13 @@
 ---
-description: Sprint Loop step 01 - "What should we build?" Run office hours to brainstorm and shape an idea into a problem statement, premise challenge, and explored alternatives. Triggers on "office hours", "brainstorm", "shape an idea", "new product", "new feature idea", "should we build", "is this worth building", "explore the problem", "design direction", "explore alternatives", "premise challenge", "what should we build". Output: design doc in plans/YYYY-MM-DD-<slug>.md with sections for Problem, Trigger, Alternatives explored, Recommended shape, Constraints, and Open questions.
+description: >
+  Sprint Loop step 01 - 'What should we build?' Run office hours to brainstorm
+  and shape an idea into a problem statement, premise challenge, and explored
+  alternatives. Triggers on 'office hours', 'brainstorm', 'shape an idea',
+  'new product', 'new feature idea', 'should we build', 'is this worth
+  building', 'explore the problem', 'design direction', 'explore alternatives',
+  'premise challenge', 'what should we build'. Output is a design doc in
+  plans/YYYY-MM-DD-slug.md with sections for Problem, Trigger, Alternatives
+  explored, Recommended shape, Constraints, and Open questions.
 ---
 
 # /y-office-hours
