@@ -12,23 +12,7 @@
     {
       "name": "the-y-coding-standard",
       "description": "Hard-opinionated standards for Python, React/Next.js, and object-oriented design + AGENTS.md template + full Sprint Loop (/y-office-hours through /y-retro) + parallel governance audit via /y-govern.",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/the-y-coding-standard"
-      ],
-      "commands": [
-        "./commands/y-init.md",
-        "./commands/y-office-hours.md",
-        "./commands/y-plan-core-review.md",
-        "./commands/y-plan-design-review.md",
-        "./commands/y-plan-eng-review.md",
-        "./commands/y-review.md",
-        "./commands/y-qa.md",
-        "./commands/y-ship.md",
-        "./commands/y-retro.md",
-        "./commands/y-govern.md"
-      ]
+      "source": "./"
     }
   ]
 }
