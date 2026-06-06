@@ -1,0 +1,42 @@
+{
+  "name": "the-y-coding-standard",
+  "description": "Yash Singh's opinionated coding standards plugin: Python and React/Next.js standards, the agentic engineering stack (AGENTS.md, plans/findings/progress/skills), and agent governance audits inspired by Microsoft's agent-governance-toolkit.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yash Singh",
+    "email": "yashs33244@gmail.com"
+  },
+  "homepage": "https://github.com/yashs33244/the_y_coding_standard",
+  "repository": "https://github.com/yashs33244/the_y_coding_standard",
+  "license": "MIT",
+  "compatibility": [
+    "claude-code"
+  ],
+  "keywords": [
+    "claude-code",
+    "coding-standards",
+    "python",
+    "nextjs",
+    "react",
+    "agents",
+    "agentic",
+    "governance",
+    "agents-md",
+    "yash"
+  ],
+  "skills": [
+    "./skills/the-y-coding-standard"
+  ],
+  "commands": [
+    "./commands/y-init.md",
+    "./commands/y-office-hours.md",
+    "./commands/y-plan-core-review.md",
+    "./commands/y-plan-design-review.md",
+    "./commands/y-plan-eng-review.md",
+    "./commands/y-review.md",
+    "./commands/y-qa.md",
+    "./commands/y-ship.md",
+    "./commands/y-retro.md",
+    "./commands/y-govern.md"
+  ]
+}

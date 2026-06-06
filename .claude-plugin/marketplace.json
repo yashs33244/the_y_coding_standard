@@ -1,0 +1,34 @@
+{
+  "name": "the-y-coding-standard",
+  "owner": {
+    "name": "Yash Singh",
+    "email": "yashs33244@gmail.com"
+  },
+  "metadata": {
+    "description": "Yash Singh's opinionated coding standards plugin for Python and React/Next.js, the agentic engineering stack, and agent governance audits.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "the-y-coding-standard",
+      "description": "Hard-opinionated standards for Python, React/Next.js, and object-oriented design + AGENTS.md template + full Sprint Loop (/y-office-hours through /y-retro) + parallel governance audit via /y-govern.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/the-y-coding-standard"
+      ],
+      "commands": [
+        "./commands/y-init.md",
+        "./commands/y-office-hours.md",
+        "./commands/y-plan-core-review.md",
+        "./commands/y-plan-design-review.md",
+        "./commands/y-plan-eng-review.md",
+        "./commands/y-review.md",
+        "./commands/y-qa.md",
+        "./commands/y-ship.md",
+        "./commands/y-retro.md",
+        "./commands/y-govern.md"
+      ]
+    }
+  ]
+}
