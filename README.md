@@ -1,6 +1,6 @@
 # the_y_coding_standard
 
-Yash Singh's opinionated coding-standards plugin for Claude Code. Hard rules for Python and React/Next.js. Drop-in AGENTS.md template. Parallel governance audit inspired by Microsoft's agent-governance-toolkit.
+An opinionated coding-standards plugin for Claude Code. Hard rules for Python and React/Next.js. Drop-in AGENTS.md template. Parallel governance audit inspired by Microsoft's agent-governance-toolkit.
 
 ## Install
 
@@ -92,4 +92,4 @@ Open a PR. Run `/y-govern` first.
 
 ## Author
 
-Yash Singh - https://github.com/yashs33244
+https://github.com/yashs33244
